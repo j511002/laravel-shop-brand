@@ -16,5 +16,10 @@
     "require": {
         "php": ">=7.0.0",
         "simple-shop/repositories": ">=0.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "SimpleShop\\Brand\\": "src/"
+        }
     }
 }
